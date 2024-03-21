@@ -1,0 +1,168 @@
+
+.x {
+    text-align: center;
+}
+
+.slider{
+
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+    align-items: center;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+.slider li {
+    width: 400%;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+@media screen and (max-width:2000px) and (min-width:1300px) {
+    .intr{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+
+#ROPA, 
+#ROPA > div, 
+#ROPA > div > .n1, 
+#ROPA > div > .n1 > .slider, 
+#ROPA > div > .n1 > .slider > ul,
+#ROPA > div > .n1 > .slider > ul > li,
+#ROPA > div > .n1 > .slider > ul > li > img,
+#ROPA > div > .n1 > .x,
+#ROPA > div > .n1 > .x > p,
+#ROPA > div > .n1 > .x > label,
+#ROPA > div > .n2,
+#ROPA > div > .n2 > p{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+    
+
+}
+#ROPA > div > .n2 > p{
+    text-align: justify ;
+}
+
+#ROPA > div > .n2 > p{
+    margin: 20px;
+}
+#ROPA {
+    margin: 20px;
+    width: 350px;
+    height: 530px;
+
+}
+#ROPA,  #ROPA > div{
+
+    align-items: center;
+}
+
+
+#ROPA > div > .n1,
+#ROPA > div > .n1 > .slider,
+#ROPA > div > .n1 > .slider > ul,
+#ROPA > div > .n1 > .slider > ul > li,
+#ROPA > div > .n1 > .slider > ul > li > img{
+    align-items: center;
+}
+
+#ROPA {
+    width: 80%; /* Cambia el ancho según tus necesidades */
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+}
+nav{
+    margin-bottom: 20px;
+}
+.slider {
+    width: 80%; /* Ancho del slider */
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center; /* Alineación de contenido al centro */
+}
+
+#ROPA > div > .n1 > .x > select,
+#ROPA > div > .n1 > .x > option,
+#ROPA > div > .n1 > .x > a > button,
+#ROPA > div > .n1 > .x > a {
+    background-color: rgb(120, 123, 123);
+    border-radius: 10px;
+}
+
+#ROPA{
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#comentarios {
+    margin-bottom: 20px;
+}
+
+.comentario {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comentario span {
+    font-weight: bold;
+}
+
+#formulario input[type="text"],
+#formulario textarea,
+#formulario button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario textarea {
+    height: 100px;
+    resize: none;
+}
+
+#formulario button {
+    background-color: rgb(107, 111, 111);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+}

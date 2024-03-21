@@ -1,0 +1,498 @@
+
+
+/*RESPONSIVE MOVIL*/
+
+
+@media screen and (max-width:900px) {
+
+    .video {
+        text-align: center;
+    }
+
+    iframe {
+        width: 350px ;
+        height: 200px;
+    }
+
+    *{
+        background-color: rgb(74, 72, 72);
+        
+    }
+    
+    
+    /*Titulo 1*/
+    
+    h1{
+        text-align: center;
+        color: rgb(204, 204, 204);
+        
+    }
+    
+    /*Navegación*/
+    
+    nav{
+        text-align: center;
+        background-color:  rgb(56, 54, 54);
+        border-radius: 100cm;
+    }
+    .selected {   /*aqui empezamos ha dar estilo a nuestro navegador de la web*/
+        display: inline-block; /*Hacemos que el navegador interactue como objeto en linea y como de bloque*/
+        text-decoration: none; /*le quitamos la decoracion del enlace que es la barra de abajo que lleva por defecto*/
+        font-size: 15px; /*le damos un tamaño a la letra*/
+        position: relative;
+        margin: 10px; /* le damos un margen de 10px*/
+        color: white;/*color de la letra que sea blanca*/
+        background-color: rgb(56, 54, 54);
+        
+    }
+    
+    a::after {  /*Aqui empezamos ha crear el efecto al seleccionar algo del navegador*/
+        content: ""; /*creamos un contenido em blanco*/
+        background-color:  rgb(179, 181, 181); /*le damos color a ese contenido de fondo*/
+        position: absolute; /*que ocupe ese contenido el mismo tamaño que la palabra*/
+        left: 0; /*lo posicionamos correctamente*/
+        top: 100%; /*lo seguimos posicionando*/
+        width: 100%; /* largura del 100%*/
+        height: 4px; /*una altura de 4px*/
+        opacity: 0; /*le decimos que se ponga transparente*/
+        transition: opacity 0.3s;/* y lo que tarde en aparecer*/
+    }
+    a:hover{
+        color:  rgb(179, 181, 181);
+    }
+    a:hover::after{
+        opacity: 0.8; /*le indicamos como queremos que aparezca cuando pasemos por encima del enlace*/
+    }
+    
+    
+.int{
+    margin: 20px;
+}
+article > p, article,article > p > strong{
+    background-color: rgb(147, 148, 148);
+    border-radius: 1cm;
+}
+
+    /*¿Historia de BILLSHOPS?*/
+    section > .hist, 
+    section,
+    section > .a2, 
+    section > .a2 > .div1, 
+    section > .a2 > .div2, 
+    section > .a2 > .div2 > .Historia, 
+    section > .a2 > .div2 > h3,   
+    section > .a2 > .div2 > .Historia > strong, 
+    section > .a2 > .div2 > .Historia > em, 
+    section > .a2 > .div2 > .Historia > data > em,
+    section > .a2 > .div2 > .Historia > data  {
+        
+        background-color: rgb(147, 148, 148);
+        border-radius: 0.5cm;
+    }
+img{
+    border-radius: 100cm;
+}
+.video{
+    background-color: rgb(93, 94, 96);
+    
+}
+iframe{
+    margin: 20px;
+    border-radius: 1cm;
+}
+
+    .hist{
+        text-align: center;
+        
+        
+    }
+    
+    .intro{
+        text-align: justify ;
+        padding: 5px;
+    }
+    
+    
+    
+    
+    
+    /*¿Que es lo que ofrece BILLSHOPS?*/
+
+    .contenido, 
+    .contenido > .cont, 
+    .contenido > ul, 
+    .contenido > ul > .li2{
+        border-radius: 0.5cm;
+        background-color: rgb(147, 148, 148);
+    }
+    ul {
+        width: 50%;
+
+    }
+    
+
+    .contenido > ul > li >strong{
+        background-color: rgb(147, 148, 148);
+        padding: 10px;
+    }
+
+    .HMN{
+        background-color: rgb(147, 148, 148);
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    
+    /*footer*/
+    
+    #c1, #c2{
+        display: flex;
+        padding: 5px;
+    }
+    
+    footer{
+        display: flex;
+        padding: 5px;
+        
+    }
+    footer, 
+    footer > #c1, 
+    footer > #c2, 
+    footer > #c1 > strong, 
+    footer > #c2 > pr > strong, 
+    footer > #c2 > pr {
+        background-color:rgb(147, 148, 148);
+        border-radius: 1cm;
+    }
+
+#FotosTop > p, #FotosTop{
+    background-color: rgb(147, 148, 148);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+    
+    .a2 {
+        margin: 10px;
+        display: block;
+    }
+    .div1 , .div2 {
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+    
+    .Historia {
+        text-align: justify;
+    }
+
+
+}
+
+/*RESPONSIVE ORDENADOR*/
+
+@media screen and (max-width:3800px) and  (min-width:901px) {
+
+    .video {
+        text-align: center;
+    }
+
+    *{
+        background-color: rgb(74, 72, 72);
+
+    
+    }
+    
+    
+    /*Titulo 1*/
+    
+    
+    h1{
+        text-align: center;
+        color: rgb(204, 204, 204);
+        
+    }
+    
+    /*Navegación*/
+    
+    nav{
+        text-align: center;
+        background-color:  rgb(56, 54, 54);
+        border-radius: 100cm;
+    }
+    .selected {   /*aqui empezamos ha dar estilo a nuestro navegador de la web*/
+        display: inline-block; /*Hacemos que el navegador interactue como objeto en linea y como de bloque*/
+        text-decoration: none; /*le quitamos la decoracion del enlace que es la barra de abajo que lleva por defecto*/
+        font-size: 15px; /*le damos un tamaño a la letra*/
+        position: relative;
+        margin: 10px; /* le damos un margen de 10px*/
+        color: white;/*color de la letra que sea blanca*/
+        background-color: rgb(56, 54, 54);
+        
+    }
+    
+    a::after {  /*Aqui empezamos ha crear el efecto al seleccionar algo del navegador*/
+        content: ""; /*creamos un contenido em blanco*/
+        background-color:  rgb(179, 181, 181); /*le damos color a ese contenido de fondo*/
+        position: absolute; /*que ocupe ese contenido el mismo tamaño que la palabra*/
+        left: 0; /*lo posicionamos correctamente*/
+        top: 100%; /*lo seguimos posicionando*/
+        width: 100%; /* largura del 100%*/
+        height: 4px; /*una altura de 4px*/
+        opacity: 0; /*le decimos que se ponga transparente*/
+        transition: opacity 0.3s;/* y lo que tarde en aparecer*/
+    }
+    a:hover{
+        color:  rgb(179, 181, 181);
+    }
+    a:hover::after{
+        opacity: 0.8; /*le indicamos como queremos que aparezca cuando pasemos por encima del enlace*/
+    }
+    .int{
+        margin: 20px;
+    }
+
+    article > p, article,article > p > strong{
+        background-color: rgb(147, 148, 148);
+        border-radius: 1cm;
+    }
+    
+    /*¿Historia de BILLSHOPS?*/
+    img{
+        border-radius: 100cm;
+    }
+
+    section > .hist, 
+    section,
+    section > .a2, 
+    section > .a2 > .div1, 
+    section > .a2 > .div2, 
+    section > .a2 > .div2 > .Historia, 
+    section > .a2 > .div2 > h3,   
+    section > .a2 > .div2 > .Historia > strong, 
+    section > .a2 > .div2 > .Historia > em, 
+    section > .a2 > .div2 > .Historia > data > em,
+    section > .a2 > .div2 > .Historia > data  {
+        
+        background-color: rgb(147, 148, 148);
+        border-radius: 0.5cm;
+    }
+    
+    .hist{
+        text-align: center;
+        
+    }
+    
+    .intro{
+        text-align: justify ;
+        padding: 5px;
+    }
+    .div1{
+        margin-left: 20px;
+    }
+    .div2{
+        margin-left: 100px;
+        margin-right: 20px;
+    }
+    
+    
+    .video{
+        background-color: rgb(93, 94, 96);
+        
+    }
+    iframe{
+        margin: 20px;
+        border-radius: 1cm;
+    }
+    /*¿Que es lo que ofrece BILLSHOPS?*/
+    
+    .contenido, 
+    .contenido > .cont, 
+    .contenido > ul, 
+    .contenido > ul > .li2{
+        border-radius: 0.5cm;
+        background-color: rgb(147, 148, 148);
+    }
+    ul {
+        width: 50%;
+
+    }
+    
+
+    .contenido > ul > li >strong{
+        background-color: rgb(147, 148, 148);
+        padding: 10px;
+    }
+
+    .HMN{
+        background-color: rgb(147, 148, 148);
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    
+    
+    #c1, #c2{
+        display: flex;
+        padding: 5px;
+    }
+    
+    footer{
+        display: flex;
+        padding: 5px;
+        
+    }
+    footer, 
+    footer > #c1, 
+    footer > #c2, 
+    footer > #c1 > strong, 
+    footer > #c2 > pr > strong, 
+    footer > #c2 > pr {
+        background-color:rgb(147, 148, 148);
+        border-radius: 1cm;
+    }
+
+
+
+
+    
+    .a2 {
+        margin: 10px;
+        display: flex;
+    }
+    .div1 , .div2 {
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+    
+    .Historia {
+        text-align: justify;
+    }
+
+}
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    background-color: rgb(147, 148, 148);
+}
+
+#imagen {
+    width: 320px;
+    height: 440px; /* Ajustado ligeramente para evitar recortes */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+}
+
+
+#Top > h2{
+    text-align: center;
+}
+
+#Top, 
+#Top > h2, 
+#Top > .carousel, 
+#Top > .carousel > #retroceder, 
+#Top > .carousel > #imagen,  
+#Top > .carousel > #avanzar {
+
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Top {
+    margin: 10px
+}
+
+.dark-mode {
+    background-color: rgb(40, 40, 40); /* Fondo más oscuro */
+    color: rgb(200, 200, 200); /* Texto más claro */
+}
+
+.dark-mode nav {
+    background-color: rgb(30, 30, 30); /* Navegación más oscura */
+}
+
+.dark-mode .selected {
+    background-color: rgb(30, 30, 30); /* Fondo de enlaces seleccionados */
+}
+
+.dark-mode a:hover::after {
+    background-color:  rgb(100, 100, 100); /* Color de fondo al pasar el mouse */
+}
+
+.dark-mode .video {
+    background-color: rgb(50, 50, 50); /* Sección de video más oscura */
+}
+
+.dark-mode iframe {
+    background-color: rgb(30, 30, 30); /* Fondo de iframes */
+}
+
+.dark-mode article > p,
+.dark-mode article,
+.dark-mode article > p > strong {
+    background-color: rgb(70, 70, 70); /* Fondo de párrafos y secciones */
+}
+
+.dark-mode section > .hist,
+.dark-mode section,
+.dark-mode section > .a2,
+.dark-mode section > .a2 > .div1,
+.dark-mode section > .a2 > .div2,
+.dark-mode section > .a2 > .div2 > .Historia,
+.dark-mode section > .a2 > .div2 > h3,
+.dark-mode section > .a2 > .div2 > .Historia > strong,
+.dark-mode section > .a2 > .div2 > .Historia > em,
+.dark-mode section > .a2 > .div2 > .Historia > data > em,
+.dark-mode section > .a2 > .div2 > .Historia > data {
+    background-color: rgb(70, 70, 70); /* Sección de historia más oscura */
+}
+
+.dark-mode .carousel {
+    background-color: rgb(70, 70, 70); /* Carrusel más oscuro */
+}
+
+.dark-mode #FotosTop > p,
+.dark-mode #FotosTop {
+    background-color: rgb(70, 70, 70); /* Sección de fotos más oscura */
+}
+
+.dark-mode .contenido,
+.dark-mode .contenido > .cont,
+.dark-mode .contenido > ul,
+.dark-mode .contenido > ul > .li2 {
+    background-color: rgb(70, 70, 70); /* Contenido más oscuro */
+}
+
+.dark-mode .contenido > ul > li > strong {
+    background-color: rgb(50, 50, 50); /* Fondo de elementos importantes */
+}
+
+.dark-mode .HMN {
+    background-color: rgb(50, 50, 50); /* Fondo de texto más oscuro */
+}
+
+.dark-mode footer,
+.dark-mode footer > #c1,
+.dark-mode footer > #c2,
+.dark-mode footer > #c1 > strong,
+.dark-mode footer > #c2 > pr > strong,
+.dark-mode footer > #c2 > pr,
+.dark-mode #Top,
+.dark-mode #Top > h2,
+.dark-mode #Top > .carousel
+{
+    background-color: rgb(70, 70, 70); /* Pie de página más oscuro */
+}
+
+#ModoNoche{
+    background-color:  rgb(179, 181, 181);
+    border-radius: 10px;
+}   
+#ModoNoche:hover{
+    background-color: rgb(227, 232, 232);
+}

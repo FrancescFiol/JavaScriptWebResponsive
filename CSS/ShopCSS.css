@@ -1,0 +1,183 @@
+
+
+/*RESPONSIVE*/
+@media screen and (max-width:530px) {
+    .n {
+        display: flex;
+    }
+
+    img {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:700px){
+    .n {
+        display: flex;
+    }
+
+    img {
+        width: 290px;
+        height: 390px;
+    }
+}
+
+@media screen and (max-width:2000px) and (min-width:1001px){
+    .ProductosH {
+        margin-left: 100px;
+        margin-right: 100px ;
+    }
+}
+
+/* Estructura general*/
+
+*{
+    background-color: rgb(74, 72, 72);
+}
+h1{
+    text-align: center;
+    color: rgb(204, 204, 204);
+    
+}
+
+
+/* Estructura navegador*/
+nav{
+    text-align: center;
+    background-color:  rgb(56, 54, 54);
+    border-radius: 100cm;
+}
+.selected {   /*aqui empezamos ha dar estilo a nuestro navegador de la web*/
+    display: inline-block; /*Hacemos que el navegador interactue como objeto en linea y como de bloque*/
+    text-decoration: none; /*le quitamos la decoracion del enlace que es la barra de abajo que lleva por defecto*/
+    font-size: 15px; /*le damos un tamaño a la letra*/
+    position: relative;
+    margin: 10px; /* le damos un margen de 10px*/
+    color: white;/*color de la letra que sea blanca*/
+    background-color: rgb(56, 54, 54);
+    
+}
+
+a::after {  /*Aqui empezamos ha crear el efecto al seleccionar algo del navegador*/
+    content: ""; /*creamos un contenido em blanco*/
+    background-color:  rgb(179, 181, 181); /*le damos color a ese contenido de fondo*/
+    position: absolute; /*que ocupe ese contenido el mismo tamaño que la palabra*/
+    left: 0; /*lo posicionamos correctamente*/
+    top: 100%; /*lo seguimos posicionando*/
+    width: 100%; /* largura del 100%*/
+    height: 4px; /*una altura de 4px*/
+    opacity: 0; /*le decimos que se ponga transparente*/
+    transition: opacity 0.3s;/* y lo que tarde en aparecer*/
+}
+a:hover{
+    color:  rgb(179, 181, 181);
+}
+a:hover::after{
+    opacity: 0.8; /*le indicamos como queremos que aparezca cuando pasemos por encima del enlace*/
+}
+
+h2 {
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+
+/* Centramos introducción*/
+.hist{
+    text-align: center;
+    
+}
+
+/* Centramos los div con clas .ROPAH con padding 5px*/
+.ROPAH {
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+    padding: 10px;
+}
+
+/* Usamos esta clase para cada prenda en un bloque*/
+.n {
+    display:inline-block;
+}
+
+/* Al pasar por encima del boton cambia de color*/
+
+button:hover{
+    background-color: rgb(139, 137, 137);
+}
+
+
+#PagoSuda1, #PagoSuda2, #PagoSuda3, #PagoSuda4,
+#PagoCami1, #PagoCami2, #PagoCami3, #PagoCami4,
+#PagoPant1, #PagoPant2, #PagoPant3,#PagoPant4,
+#PagoZapas1,#PagoZapas2,#PagoZapas3,#PagoZapas4,
+#PagoVestido1,#PagoVestido2,#PagoVestido3,#PagoVestido4,
+#PagoTop1,#PagoTop2,#PagoTop3,#PagoTop4
+{
+    display: none;
+}
+
+#Sudaderas, #Sudaderas > h2, #Sudaderas > .y, #Sudaderas > .y > .n, #Sudaderas> .y > .n > div > img, #Sudaderas > .y > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Sudaderas > .y > .n > div{
+    margin: 5px;
+}
+
+#Camisetas, #Camisetas> h2, #Camisetas > .y, #Camisetas > .n, #Camisetas> .n > div > img, #Camisetas > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Camisetas > .n > div{
+    margin: 5px;
+}
+
+button{
+    border-radius: 5px;
+    
+}
+button:hover{
+    color: white;
+}
+
+#Pantalones, #Pantalones > h2, #Pantalones > .y, #Pantalones > .n, #Pantalones> .n > div > img, #Pantalones > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Pantalones > .n > div{
+    margin: 5px;
+}
+
+#Zapatos, #Zapatos > h2, #Zapatos > .y, #Zapatos > .n, #Zapatos> .n > div > img, #Zapatos > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Zapatos > .n > div{
+    margin: 5px;
+}
+
+#Vestidos, #Vestidos > h2, #Vestidos > .y, #Vestidos > .n, #Vestidos> .n > div > img, #Vestidos > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Vestidos > .n > div{
+    margin: 5px;
+}
+
+#Tops, #Tops > h2, #Tops > .y, #Tops > .n, #Tops> .n > div > img, #Tops > .n > div{
+    background-color: rgb(147, 148, 148);
+    border-radius: 10px;
+}
+
+#Tops > .n > div{
+    margin: 5px;
+}
