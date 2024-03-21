@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILLSHOPS</title>
+    <link rel="icon" type="image/jpg" href="IMG_LOGO/Logo.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Inicio.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+        h1 {
+            font-family: 'Vollkorn', serif;
+
+        }        
+    </style>
+
+</head>
+<body>
+    <!--Cambiar a Modo oscuro-->
+    <button id="ModoNoche" onclick="ModoNoche()">Modo Oscuro</button>
+    <header> <!--En el header craremos el navegador de la página  para que se puedan desplazr con  facilidadkd-->
+            <h1>BILLSHOPS</h1>
+        
+        <nav>
+                <a  href="Inicio.html"class="selected">Inicio</a>
+                <a  href="Hombre.html" class="selected">Hombre</a>
+                <a  href="Mujer.html" class="selected">Mujer</a>
+        </nav>
+
+        
+    </header>
+    <br>
+
+    <article class="intro"> <!-- Crearemos un bloque de introduccion para dar la bienvenoda a los usuarios parcando con elementos como <Strong> para der imprtancia y relevancia a la pagina a nivel SEO-->
+        <p class="int">Bienvenidos a la nueva página de moda que está en tendencias, con grandes ofertas y envios gratuitos a todo el mundo. En esta página encontrarás todo tipo de accesorios, tanto para hombres, mujeres y niños.</p>
+    
+        <p class="int">Cada mes sacamos nuevas prendas de ropa, y a la vez vamos haciendo grandes ofertas con la ropa que ha pasado la temporada, asi que bienvenidos a <strong>BILLSHOPS!!</strong> </p>
+    </article>
+    
+
+
+    <section> <!--aqui crearemos varios bloques donde pondremos información sobre nuestra página web-->
+        <h2 class="hist">Historia de BILLSHOPS</h2>
+        <article class="a2"> 
+
+            <div class="div1">
+                <img src="IMG_LOGO/Logo.jpg" width="310" height="300">
+            </div>
+            <div class="div2">
+
+            <P class="Historia"><strong> BILLSHOPS </strong> es una empresa pequeña de ropa creada el <data><em>7 de noviembre de 2023</em></data>, por Gabriel Mas y Francesc Fiol. Esta tienda tiene el objetivo de llevar la moda a otro nivel, innovando cada mes y haciendo grandes ofertas. Esta idea surgió a traves de un día que estabamos hablando de hacer un proyecto de nuestro agrado y nos pareció buena idea de montar nuestra propia tienda online. Grácias a las redes sociales como por ejemplo; <em>TikTok, Instagram, YouTube...</em> pudimos hacer una buena propaganda de manera gratuita, y así poder cumplir este sueño. Actualmente, solo existe esta web pero más en adelante craremos tiendas físicas por toda España.</P>
+            <br> <h3> Los beneficios al usar BILLSHOPS: </h3> 
+            <p class = "Historia">Un día se nos generó la gran idea de hacer grandes ofertas a la hora de renovar los porductos de nuestra página web. Para no tirar esa ropa o almacenarla y ir renovando nuestro almacén se nos ocurrió hacer grandes combos. Para acceder a estos combos se necesita unos requisitos para que sea algo más especial. Que será tener unos puntos que se canjean comprando prendas en la tienda web y asi accededer a los bonos.</p> <br> 
+            
+            </div>
+        </article>
+    </section>
+    <!--VIDEO ROPA DE LA TIENDA CON EL CANAL DE YOUTUBE DE BILLSHOPS-->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jlgqrhzCFiU?si=gb6qM19Y4iG-deL7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="contenido"> <!--Aqui un artocle con el contenido de BILLSHOPS-->
+        <h2 class="cont">¿Que es lo que ofrece BILLSHOPS?</h2>
+        <ul >
+            <li class="li2"><strong>Ropa de Hombre</strong></li> <p class="HMN">En la sección de hombre puedes encontrar tanto zapatos, de sudaderas, camisetas, ropa interior, trajes, pantalones, joyeria...</p>
+            <li class="li2"><strong>Ropa de Mujer</strong></li> <p class="HMN">En la sección de mujer puedes encontrar tanto zapatos, vestidos, faldas, tops, ropa interior, bolsos, joyeria, accesorios...</p>        </ul>
+    </div>
+    </div>
+<div id="Top">
+    <h2>ROPA TOP DE BILLSHOPS:</h2>
+    <div class="carousel">
+        <button id="retroceder"><</button>
+        <div id="imagen" style="width: 320px; height: 440px;"></div>
+        <button id="avanzar">></button>
+    </div>
+
+</div>
+    
+
+    <footer> <!--un pie de pagina donde pondremos nuestros contactos por si hay alguna duda o quieran contactarnos-->
+            <div id="c1">
+                <strong> Contacto: </strong>
+            </div>      
+            <div id="c2">
+                <pr class="contacto">billshops23@gmail.com <strong>Teléfono:</strong>  971880450</pr>  
+            </div> 
+    </footer>
+    
+    <script src="Inicio.js"></script>
+
+</body>
+</html>

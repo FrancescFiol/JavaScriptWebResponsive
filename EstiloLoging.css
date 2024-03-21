@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(74, 72, 72) /* Color de fons per defecte */
+
+}
+/*css de la parte principal de los dos bo0tones*/
+#Ord{
+    background-color: #2d2f2f;
+    border-radius: 100px;
+    display:block;
+    height: 600px;
+}
+
+#titulo{
+    margin: 10px;
+}
+
+#T{
+    color: rgb(155, 148, 148);
+    margin: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#bR:hover, #bIS:hover{
+    background: rgb(155, 149, 149);
+    
+}
+
+#bR{
+    margin-left: 40px;
+
+}
+
+#bR, #bIS {
+    height: 100px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 13px 18px;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: #ffff;
+}
+
+img{
+    margin-left: 100px;
+    border-radius: 100px;
+}
+
+
+/*CSS de Registro y Login*/
+
+#Registro{
+    display: none;
+}
+
+#Login{
+    display: none;
+}
+
+
+.login>.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login{
+    width: 340px;
+    height: 400px;
+    background: #2c2c2c;
+    padding: 47px;
+    padding-bottom: 57px;
+    color: #ffff;
+    border-radius: 17px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login > #nombre,
+.login > #apellidos,
+.login > #email,
+.login > #email1,
+.login > #password,
+.login > #password1,
+.login > #password2{
+    opacity: 1;
+    display: block;
+    border: none;
+    width: 90%;
+    padding: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: #ffff;
+}
+
+
+.login > #botonIS, .login > #botonR {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px;
+    margin: 40px 0 0 0;
+    border-radius: 500px;
+    font-weight: 600;
+    animation: bounce2 1.6s;
+}
+
+
+
+#botonIS, #botonR {
+    background: linear-gradient(144deg, #af40ff,#5b42f3 50%, #00ddeb);
+    color: #ffff;
+    padding: 16px !important;
+}
+
+#botonIS:hover, #botonR:hover {
+    background: linear-gradient(144deg, #1e1e1e, 20%, #1e1e1e 50%, #1e1e1e);
+    color: rgb(255,255, 255);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.h1{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image: 4px solid transparent;
+    border-image: linear-gradient(0.25turn, #535efc, #0EC8EE, #0EC8EE);
+    border-image-slice: 1;
+    display: inline;
+}
+
+@media only screen and (max-width: 600px){
+    .login{
+        width: 70%;
+        padding: 3em;
+    }
+}

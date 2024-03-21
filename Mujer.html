@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILLSHOPS</title>
+    <link rel="icon" type="image/jpg" href="IMG_LOGO/Logo.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/ShopCSS.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Pago.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+        h1 {
+            font-family: 'Vollkorn', serif;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MUJER</h1>
+    <nav>
+            <a  href="Inicio.html"class="selected">Inicio</a>
+            <a  href="Hombre.html" class="selected">Hombre</a>
+            <a  href="Mujer.html" class="selected">Mujer</a>
+    </nav>
+
+</header>
+<div id="PaginaMujer">
+    <article class="ProductosH">
+
+        <!--SECCIÓN SUDADERAS-->
+        <div class="ROPAH">
+            <div id="Sudaderas">
+                <h2>SUDADERAS</h2>
+            <div class="y">
+                <!-- Sudadera 1 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/SudaderaM1.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraSuda1()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Sudadera 2 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/SudaderaM2.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraSuda2()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Sudadera 3 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/SudaderaM3.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraSuda3()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Sudadera 4 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/SudaderaM4.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraSuda4()">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    
+        <!--SECCIÓN VESTIDOS-->
+        <div class="ROPAH">
+            <div id="Vestidos">
+                <h2>VESTIDOS</h2>
+                <!-- Vestido 1 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/Vestidos1.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraVestido1()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Vestido 2 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/Vestidos2.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraVestido2()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Vestido 3 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/Vestidos3.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraVestido3()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Vestido 4 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/Vestidos4.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraVestido4()">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+        <!--SECCIÓN TOPS-->
+        <div class="ROPAH">
+            <div id="Tops">
+                <h2>TOPS</h2>
+            <!-- Top 1 -->
+            <div class="n">
+                <div>
+                    <img src="IMG_M/Tops1.jpg" width="250" height="300">
+                </div>
+                <div>
+                    <button onclick="CompraTop1()">COMPRAR</button>
+                </div>
+            </div>
+            <!-- Top 2 -->
+            <div class="n">
+                <div>
+                    <img src="IMG_M/Tops2.jpg" width="250" height="300">
+                </div>
+                <div>
+                    <button onclick="CompraTop2()">COMPRAR</button>
+                </div>
+            </div>
+            <!-- Top 3 -->
+            <div class="n">
+                <div>
+                    <img src="IMG_M/Tops3.jpg" width="250" height="300">
+                </div>
+                <div>
+                    <button onclick="CompraTop3()">COMPRAR</button>
+                </div>
+            </div>
+            <!-- Top 4 -->
+            <div class="n">
+                <div>
+                    <img src="IMG_M/Tops4.jpg" width="250" height="300">
+                </div>
+                <div>
+                    <button onclick="CompraTop4()">COMPRAR</button>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    
+        <!--SECCIÓN PANTALONES-->
+        <div class="ROPAH">
+            <div id="Pantalones">
+                <h2>PANTALONES</h2>
+                <!-- Pantalón 1 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/PantM1.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraPant1()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Pantalón 2 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/PantM2.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraPant2()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Pantalón 3 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/PantM3.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraPant3()">COMPRAR</button>
+                    </div>
+                </div>
+                <!-- Pantalón 4 -->
+                <div class="n">
+                    <div>
+                        <img src="IMG_M/PantM4.jpg" width="250" height="300">
+                    </div>
+                    <div>
+                        <button onclick="CompraPant4()">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+
+</div>
+<div id="ROPA">
+    <div id="PagoSuda1">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/SudaderaM1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM1.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM1.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Sudadera de alta calidad para estas Navidades, antimanchas y viene con un set de accesorios para poder combinar con la sudadera. Si al llegar la sudadera no es tu talla tienes la opción de cambiarla por otra talla sin problemas siempre que tenga el tiquet de la compra.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoSuda2">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/SudaderaM2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM2.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM2.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Sudadera de alta calidad para estas Navidades, antimanchas y viene con un set de accesorios para poder combinar con la sudadera. Si al llegar la sudadera no es tu talla tienes la opción de cambiarla por otra talla sin problemas siempre que tenga el tiquet de la compra.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoSuda3">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/SudaderaM3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM3.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM3.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Sudadera de alta calidad para estas Navidades, antimanchas y viene con un set de accesorios para poder combinar con la sudadera. Si al llegar la sudadera no es tu talla tienes la opción de cambiarla por otra talla sin problemas siempre que tenga el tiquet de la compra.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+    
+    <div id="PagoSuda4">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/SudaderaM4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM4.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/SudaderaM4.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Sudadera de alta calidad para estas Navidades, antimanchas y viene con un set de accesorios para poder combinar con la sudadera. Si al llegar la sudadera no es tu talla tienes la opción de cambiarla por otra talla sin problemas siempre que tenga el tiquet de la compra.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoVestido1">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Vestidos1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos1.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos1.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Deslumbra en cualquier ocasión con nuestros vestidos elegantes. Desde estilos clásicos hasta tendencias de moda, cada vestido está confeccionado para realzar tu feminidad y hacer una declaración de estilo.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoVestido2">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Vestidos2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos2.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos2.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Deslumbra en cualquier ocasión con nuestros vestidos elegantes. Desde estilos clásicos hasta tendencias de moda, cada vestido está confeccionado para realzar tu feminidad y hacer una declaración de estilo.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoVestido3">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Vestidos3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos3.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos3.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Deslumbra en cualquier ocasión con nuestros vestidos elegantes. Desde estilos clásicos hasta tendencias de moda, cada vestido está confeccionado para realzar tu feminidad y hacer una declaración de estilo.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoVestido4">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Vestidos4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos4.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Vestidos4.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Deslumbra en cualquier ocasión con nuestros vestidos elegantes. Desde estilos clásicos hasta tendencias de moda, cada vestido está confeccionado para realzar tu feminidad y hacer una declaración de estilo.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoTop1">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Tops1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops1.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops1.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Eleva tu estilo con nuestra exclusiva selección de tops. Ya sea para ocasiones formales o informales, cada top es una declaración de moda que destaca tu personalidad única.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoTop2">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Tops2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops2.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops2.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Eleva tu estilo con nuestra exclusiva selección de tops. Ya sea para ocasiones formales o informales, cada top es una declaración de moda que destaca tu personalidad única.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoTop3">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Tops3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops3.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops3.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Eleva tu estilo con nuestra exclusiva selección de tops. Ya sea para ocasiones formales o informales, cada top es una declaración de moda que destaca tu personalidad única.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoTop4">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/Tops4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops4.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/Tops4.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Eleva tu estilo con nuestra exclusiva selección de tops. Ya sea para ocasiones formales o informales, cada top es una declaración de moda que destaca tu personalidad única.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoPant1">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/PantM1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM1.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM1.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Descubre la perfecta combinación de estilo y confort con nuestros pantalones. Desde cortes elegantes hasta detalles modernos, cada par es una expresión de moda que se adapta a tu estilo de vida.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoPant2">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/PantM2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM2.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM2.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM2.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Descubre la perfecta combinación de estilo y confort con nuestros pantalones. Desde cortes elegantes hasta detalles modernos, cada par es una expresión de moda que se adapta a tu estilo de vida.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+    <div id="PagoPant3">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/PantM3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM3.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM3.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM3.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Descubre la perfecta combinación de estilo y confort con nuestros pantalones. Desde cortes elegantes hasta detalles modernos, cada par es una expresión de moda que se adapta a tu estilo de vida.</P>  
+        </div>
+
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="PagoPant4">
+        <div class="n1">
+            <div class="slider">
+                <ul>
+                    <li><img src="IMG_M/PantM4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM4.1.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM4.jpg" weigth="250" height="300"></li>
+                    <li><img src="IMG_M/PantM4.1.jpg" weigth="250" height="300"></li>
+                </ul>
+            </div>
+            <div class="x">
+                <p class="Precio">30 €</p>
+                
+                <label for="sexo">Talla</label>
+
+                <select name="sexo" id="sexo">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                </select><br>
+                <br>
+                <a href="#">
+                <button>COMPRAR</button> 
+                </a>      
+            </div>
+        </div>
+
+        <div class="n2">
+            <P class="intr">Descubre la perfecta combinación de estilo y confort con nuestros pantalones. Desde cortes elegantes hasta detalles modernos, cada par es una expresión de moda que se adapta a tu estilo de vida.</P>  
+        </div>
+        <div id="chat">
+            <div id="comentarios">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    
+    </div>
+</div>
+
+
+
+    <script src="RopaMujer.js"></script>
+
+</body>
+</html>
