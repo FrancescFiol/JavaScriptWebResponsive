@@ -1,4 +1,4 @@
-![image](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/3a0716ff-2754-403c-a605-dc1e281f8a52)## Proyecto: **BILLSHOPS**
+## Proyecto: **BILLSHOPS**
 
 ## Descripción
 Este proyecto es una página web llamada "BILLSHOPS". La página ofrece un inicio en el que puedes ver nuestros mejores productos, un formulario y una breve descripción de la tienda junto con un video de YouTube.
