@@ -1,32 +1,43 @@
-Proyecto: BILLSHOPS
-Descripción
-Este proyecto es una página web llamada "Nombre del Proyecto" que tiene como objetivo [descripción breve del propósito de la página]. La página ofrece [detalles sobre los servicios o funcionalidades que ofrece].
+## Proyecto: **BILLSHOPS**
 
-Equipo
+## Descripción
+Este proyecto es una página web llamada "BILLSHOPS". La página ofrece un inicio en el que puedes ver nuestros mejores productos, un formulario y una breve descripción de la tienda junto con un video de YouTube.
+
+## Equipo
 El proyecto ha sido realizado por Biel y Francesc.
 
-Distribución de Tareas
-Biel:
+## Distribución de Tareas
+**Biel:**
+- Formulario de la página tanto de registro como login.
+- Juntar todos los HTML de compra en el HTML hombre.
+- Todo el JS de RopaHombre.js.
+- Mejorar cómo se ve la página hombre y mujer mediante CSS.
 
-Desarrollo del frontend utilizando HTML, CSS y JavaScript.
-Diseño de la interfaz de usuario y experiencia de usuario.
-Implementación de las funcionalidades del carrusel de imágenes.
-Colaboración en la sección de historia de la empresa.
-Francesc:
+**Francesc:**
+- Carrusel.
+- Modo Oscuro.
+- Markdown.
+- Juntar todos los HTML de compra en el HTML mujer.
 
-Desarrollo del backend utilizando [tecnología utilizada].
-Configuración y gestión de la base de datos.
-Implementación de la lógica de negocio y funcionalidades del servidor.
-Colaboración en la sección de historia de la empresa.
-Trabajo Conjunto
-Desarrollo y revisión de la arquitectura general del proyecto.
-Integración de frontend y backend para asegurar la funcionalidad completa de la página.
-Resolución de problemas y errores a medida que surgían durante el desarrollo.
-Interactividad de la Página
-La página web "Nombre del Proyecto" presenta varias características interactivas para mejorar la experiencia del usuario:
+## Trabajo Conjunto
+- Mejorar el CSS y el HTML de la página.
+- Formulario de la página encuesta interactiva.
+- Comentar el código JS.
 
-Carrusel de Imágenes: Los usuarios pueden navegar a través de una selección de imágenes utilizando los botones de avance y retroceso, así como el botón de reproducción automática.
+## Características
+- **Carrusel de Imágenes:** Un carrusel que mediante una flecha puede pasar fotos y ver los mejores productos.
+- **Modo Oscuro:** La página ofrece un botón que cambia la web a una tonalidad más oscura.
+- **Navegación Fácil:** Menú de navegación para acceder a todas las páginas mediante.
+- **Registro y login con JS:** Es una web que tiene un login y un registro.
+- **Pasarela fotos:** Las fotos del HTML en el apartado compra van rotando para que el usuario vea varias fotos.
+- **Cambio pantalla página compra con JS:** Al clicar el botón de compra en la página tanto hombre como mujer se oculta todo y se muestra la página de compra de ese producto concreto.
 
-Modo Oscuro: La página web ofrece un botón para cambiar entre el modo claro y oscuro, lo que permite a los usuarios ajustar la apariencia visual según sus preferencias.
+## Capturas de Pantalla
+![carrusel](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/fe0a7e8e-9ab3-4359-bd5c-1cdefd20a4c5)
 
-Navegación Fácil: Se incluye un menú de navegación en la parte superior de la página que permite a los usuarios acceder fácilmente a diferentes secciones del sitio.
+![Oscuro](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/e0864775-ad62-42f1-8159-dd690e3c79eb)
+
+![Pasarela](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/555f43df-07ad-4947-a08d-b1ea732de221)
+
+![Formulario](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/7c7c60fa-66f2-4ee3-813e-8c4f53e7810a)
+
