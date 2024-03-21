@@ -1,4 +1,4 @@
-## Proyecto: **BILLSHOPS**
+![image](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/3a0716ff-2754-403c-a605-dc1e281f8a52)## Proyecto: **BILLSHOPS**
 
 ## Descripción
 Este proyecto es una página web llamada "BILLSHOPS". La página ofrece un inicio en el que puedes ver nuestros mejores productos, un formulario y una breve descripción de la tienda junto con un video de YouTube.
@@ -49,4 +49,10 @@ El proyecto ha sido realizado por Biel y Francesc.
 ## Formulario
 
 ![Formulario](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/7c7c60fa-66f2-4ee3-813e-8c4f53e7810a)
+
+## Login
+
+![Login](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/4ab2eacd-2ab7-4ad3-a9bc-544ded852ad3)
+
+
 
