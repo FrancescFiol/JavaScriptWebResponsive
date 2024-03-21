@@ -33,11 +33,20 @@ El proyecto ha sido realizado por Biel y Francesc.
 - **Cambio pantalla página compra con JS:** Al clicar el botón de compra en la página tanto hombre como mujer se oculta todo y se muestra la página de compra de ese producto concreto.
 
 ## Capturas de Pantalla
+
+## Carrusel
+
 ![carrusel](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/fe0a7e8e-9ab3-4359-bd5c-1cdefd20a4c5)
+
+## Modo oscuro
 
 ![Oscuro](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/e0864775-ad62-42f1-8159-dd690e3c79eb)
 
+## Pasarela
+
 ![Pasarela](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/555f43df-07ad-4947-a08d-b1ea732de221)
+
+## Formulario
 
 ![Formulario](https://github.com/FrancescFiol/JavaScriptWebResponsive/assets/151858230/7c7c60fa-66f2-4ee3-813e-8c4f53e7810a)
 
